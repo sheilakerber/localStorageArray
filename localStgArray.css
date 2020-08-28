@@ -1,0 +1,42 @@
+body {
+    background-color: rgba(74, 123, 123, 0.2);
+    text-align: center;
+}
+
+#mainContent {
+    width: 90%;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+input {
+    width: 150px;
+    height: 30px;
+    font-size: 13pt;
+    border-radius: 7px;
+    border: 1px solid rgb(145, 193, 145);
+    margin-top: 5px;
+}
+
+p {
+    color: rgb(112, 154, 112);
+    font-weight: bold;
+}
+
+button {
+    height: 25px;
+    background-color: rgb(145, 193, 145);
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 12pt;
+    margin-bottom: 15px;
+}
+
+button:hover {
+    border: 1px solid rgb(0, 67, 0);
+    cursor: pointer;
+    color: rgb(0, 67, 0);
+}
